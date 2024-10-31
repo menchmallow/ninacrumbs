@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Irish+Grover&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Irish+Grover&family=Itim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Irish+Grover&family=Itim&family=Jersey+25&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Irish+Grover&family=Itim&family=Jersey+25&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Irish+Grover&family=Itim&family=Jersey+25&family=Joan&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  margin: 0;
+  border: 0;
+}
+
+.irish-grover-regular {
+  font-family: "Irish Grover", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.itim-regular {
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jersey-25-regular {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.joan-regular {
+  font-family: "Joan", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 11vh;
+  background-color: white;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.main-logo {
+  font-size: 2rem;
+  margin-left: 2vw;
+}
+
+.nav-links {
+  font-size: 1.25rem;
+}
+
+.nav-links a {
+  margin: 1rem;
+}
+
+.order-btn {
+  background-color: #4f4f4f;
+  color: white;
+  font-size: 1.25rem;
+  border-radius: 8px;
+  height: 3rem;
+  width: 8rem;
+  border: none;
+}
+
+.nav-hr {
+  position: fixed;
+  top: 10vh;
+  width: 100vw;
+}
+
+.content {
+  margin-top: 11vh;
+}
+
+.section-1 {
+  background-image: url("/images/doughnuts-donuts.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-1 p {
+  font-size: 6rem;
+  color: white;
+  text-shadow: 0.5rem 0 #424242;
+}
+
+.section1-hr {
+  margin: 0;
+  padding: 0;
+  height: 6vh;
+  background-color: #d9d9d9;
+  border: none;
+}
+
+.section-2 {
+  margin: 20vh 0;
+}
+
+.sec2-phrase {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.product-container {
+  margin: 10rem 5rem 20rem;
+}
+
+.product-title {
+  font-size: 3rem;
+}
+
+.product-desc {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.product-container img {
+  width: 25vw;
+}
+
+.section-3 {
+  height: 100vh;
+  background-image: url("/images/cookie\ bg.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.order-btn-2 {
+  font-size: 3rem;
+  border-radius: 10px;
+  background-color: #575757;
+  color: white;
+  padding: 1%;
+}
+
+.socials img {
+  width: 2rem;
+  margin: 1em;
+}
+
+.footer {
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ewankona {
+  margin: 1em;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .main-logo {
+    font-size: 1.25rem;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .section-1 p {
+    font-size: 2rem;
+  }
+
+  .sec2-phrase {
+    font-size: 1.25rem;
+  }
+
+  .product-container {
+    margin: 5%;
+  }
+
+  .product-title {
+    font-size: 1.5rem;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+
+  .card img {
+    width: 60vw;
+  }
+
+  .product-desc {
+    font-size: 1rem;
+  }
+
+  .section-3 p {
+    font-size: 1.5rem;
+  }
+
+  .order-btn-2 {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+
+  .footer p {
+    font-size: 0.8rem;
+    margin: 2%;
+  }
+
+  .socials img {
+    width: 6vw;
+    margin: 0.2rem;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .main-logo {
+    font-size: 1.25rem;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .section-1 p {
+    font-size: 2.5rem;
+  }
+
+  .sec2-phrase {
+    font-size: 1.5rem;
+  }
+
+  .product-container {
+    margin: 5%;
+  }
+
+  .product-title {
+    font-size: 1.75rem;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+
+  .card img {
+    width: 70vw;
+  }
+
+  .product-desc {
+    font-size: 1.25rem;
+  }
+
+  .section-3 p {
+    font-size: 1.8rem;
+  }
+
+  .order-btn-2 {
+    font-size: 1.8rem;
+    padding: 0.5rem;
+  }
+
+  .footer p {
+    font-size: 0.8rem;
+    margin: 2%;
+  }
+
+  .socials img {
+    width: 6vw;
+    margin: 0.2rem;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .main-logo {
+    font-size: 1.5rem;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .section-1 p {
+    font-size: 3rem;
+  }
+
+  .sec2-phrase {
+    font-size: 1.75rem;
+  }
+
+  .product-container {
+    margin: 5%;
+  }
+
+  .product-title {
+    font-size: 1.75rem;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+
+  .card img {
+    width: 70vw;
+  }
+
+  .product-desc {
+    font-size: 1.25rem;
+  }
+
+  .section-3 p {
+    font-size: 2rem;
+  }
+
+  .order-btn-2 {
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+
+  .footer p {
+    font-size: 0.9rem;
+    margin: 2%;
+  }
+
+  .socials img {
+    width: 6vw;
+    margin: 0.2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .main-logo {
+    font-size: 2rem;
+  }
+
+  .nav-links {
+    font-size: 1.25rem;
+  }
+
+  .section-1 p {
+    font-size: 5rem;
+  }
+
+  .sec2-phrase {
+    font-size: 2.5rem;
+  }
+
+  .product-container {
+    margin: 5%;
+  }
+
+  .product-title {
+    font-size: 2rem;
+  }
+
+  .card img {
+    width: 30vw;
+  }
+
+  .product-desc {
+    font-size: 1.25rem;
+  }
+
+  .section-3 p {
+    font-size: 3rem;
+  }
+
+  .order-btn-2 {
+    font-size: 3rem;
+    padding: 0.5rem;
+  }
+
+  .footer p {
+    font-size: 1rem;
+    margin: 2%;
+  }
+
+  .socials img {
+    width: 4vw;
+    margin: 0.5rem;
+  }
+}
