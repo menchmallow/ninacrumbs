@@ -59,6 +59,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  border-bottom: 1px solid black;
 }
 
 .main-logo {
@@ -91,12 +92,12 @@ nav {
 }
 
 .content {
-  margin-top: 11vh;
+  margin-top: 9vh;
 }
 
 .grid-container img {
   width: 50vw;
-  max-height: 45vh;
+  height: 45vh;
   object-fit: cover;
 }
 
@@ -159,6 +160,14 @@ span {
   font-size: 1rem;
 }
 
+.hide {
+  display: none;
+}
+
+#menu-btn {
+  display: none;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 374px) {
   body {
     overflow-x: hidden;
@@ -166,6 +175,26 @@ span {
 
   .nav-links {
     display: none;
+  }
+
+  .menu-container {
+    background-color: white;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .menu-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #menu-btn {
+    display: block;
+    position: fixed;
+    right: 2vw;
+    top: 4vh;
   }
 
   .main-logo {
@@ -179,6 +208,7 @@ span {
 
   .grid-container img {
     width: 100vw;
+    height: 30vh;
   }
 
   p {
@@ -222,6 +252,26 @@ span {
     display: none;
   }
 
+  .menu-container {
+    background-color: white;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .menu-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #menu-btn {
+    display: block;
+    position: fixed;
+    right: 2vw;
+    top: 4vh;
+  }
+
   .grid-container {
     display: flex;
     flex-direction: column;
@@ -229,6 +279,7 @@ span {
 
   .grid-container img {
     width: 100vw;
+    height: 30vh;
   }
 
   p {
@@ -272,6 +323,26 @@ span {
     display: none;
   }
 
+  .menu-container {
+    background-color: white;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .menu-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #menu-btn {
+    display: block;
+    position: fixed;
+    right: 2vw;
+    top: 4vh;
+  }
+
   .grid-container {
     display: flex;
     flex-direction: column;
@@ -279,6 +350,7 @@ span {
 
   .grid-container img {
     width: 100vw;
+    height: 30vh;
   }
 
   p {
@@ -324,6 +396,7 @@ span {
 
   .grid-container img {
     width: 50vw;
+    height: 50vh;
   }
 
   p {

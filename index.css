@@ -58,6 +58,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  border-bottom: 1px solid black;
 }
 
 .main-logo {
@@ -83,14 +84,12 @@ nav {
   border: none;
 }
 
-.nav-hr {
-  position: fixed;
-  top: 10vh;
-  width: 100vw;
+#menu-btn {
+  display: none;
 }
 
 .content {
-  margin-top: 11vh;
+  margin-top: 9vh;
 }
 
 .section-1 {
@@ -185,6 +184,10 @@ nav {
   margin: 1em;
 }
 
+.hide {
+  display: none;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 374px) {
   body {
     overflow-x: hidden;
@@ -196,6 +199,26 @@ nav {
 
   .nav-links {
     display: none;
+  }
+
+  .menu-container {
+    background-color: white;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .menu-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #menu-btn {
+    display: block;
+    position: fixed;
+    right: 2vw;
+    top: 4vh;
   }
 
   .section-1 p {
@@ -259,6 +282,26 @@ nav {
     display: none;
   }
 
+  .menu-container {
+    background-color: white;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .menu-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #menu-btn {
+    display: block;
+    position: fixed;
+    right: 2vw;
+    top: 4vh;
+  }
+
   .section-1 p {
     font-size: 2.5rem;
   }
@@ -318,6 +361,26 @@ nav {
 
   .nav-links {
     display: none;
+  }
+
+  .menu-container {
+    background-color: white;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .menu-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #menu-btn {
+    display: block;
+    position: fixed;
+    right: 2vw;
+    top: 4vh;
   }
 
   .section-1 p {
