@@ -100,7 +100,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("/images/location-bg.png");
+  background-image: url("images/location-bg.png");
   height: 100vh;
 }
 
