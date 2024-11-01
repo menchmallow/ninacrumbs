@@ -154,6 +154,8 @@ input {
 
 #menu-btn {
   display: none;
+  border: none;
+  background-color: white;
 }
 
 .hide {
@@ -169,11 +171,16 @@ input {
     display: none;
   }
 
+  .main-logo {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 15vh 0;
+  }
+
   .menu-container {
     background-color: white;
     height: 100vh;
-    flex-direction: column;
-    justify-content: space-evenly;
+    display: block;
   }
 
   .menu-links {
@@ -243,11 +250,16 @@ input {
     display: none;
   }
 
+  .main-logo {
+    text-align: center;
+    margin: 15vh 0;
+    font-size: 1.25rem;
+  }
+
   .menu-container {
     background-color: white;
     height: 100vh;
-    flex-direction: column;
-    justify-content: space-evenly;
+    display: block;
   }
 
   .menu-links {
@@ -313,11 +325,17 @@ input {
     display: none;
   }
 
+  .main-logo {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 15vh 0;
+    font-size: 1.25rem;
+  }
+
   .menu-container {
     background-color: white;
     height: 100vh;
-    flex-direction: column;
-    justify-content: space-evenly;
+    display: block;
   }
 
   .menu-links {

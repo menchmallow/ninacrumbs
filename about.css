@@ -166,6 +166,8 @@ span {
 
 #menu-btn {
   display: none;
+  border: none;
+  background-color: white;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
@@ -177,11 +179,15 @@ span {
     display: none;
   }
 
+  .main-logo {
+    text-align: center;
+    margin: 15vh 0;
+  }
+
   .menu-container {
     background-color: white;
     height: 100vh;
-    flex-direction: column;
-    justify-content: space-evenly;
+    display: block;
   }
 
   .menu-links {
@@ -252,11 +258,16 @@ span {
     display: none;
   }
 
+  .main-logo {
+    text-align: center;
+    margin: 15vh 0;
+    font-size: 1.25rem;
+  }
+
   .menu-container {
     background-color: white;
     height: 100vh;
-    flex-direction: column;
-    justify-content: space-evenly;
+    display: block;
   }
 
   .menu-links {
@@ -317,6 +328,9 @@ span {
 
   .main-logo {
     font-size: 1.5rem;
+    text-align: center;
+    margin: 15vh 0;
+    font-size: 1.25rem;
   }
 
   .nav-links {
@@ -326,8 +340,7 @@ span {
   .menu-container {
     background-color: white;
     height: 100vh;
-    flex-direction: column;
-    justify-content: space-evenly;
+    display: block;
   }
 
   .menu-links {
